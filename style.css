@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:#d4b5b5;
+    min-height: 100px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+}   
+
+
+.cabecalho {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}   
+
+.logo {
+  
+
+}
+
+button {
+    background-color: purple;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: monospace;
+    color: white;
+    padding: 15px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+    line-height: normal;
+    transition: ease-in-out 150ms;
+}
+
+button:hover {
+    background-color: rgb(80, 14, 80);
+}
+
+main {
+    width: 100%;
+}
+
+.foto {
+    width: 100%; 
+    height: auto; 
+    display: block;
+}
