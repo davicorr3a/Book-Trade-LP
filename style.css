@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color:#d4b5b5;
+    background-color:#2170a9;
     min-height: 100px;
     padding: 10px 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -22,13 +22,55 @@ header {
 
 }   
 
-.logo {
-  
+    
+.background-principal {
+    background-image: linear-gradient(rgba(14, 14, 153, 0.5), rgba(0, 0, 0, 0.8)), url("imagens/Library.jpg");
+    background-size: cover; /* Adicione esta linha para cobrir a div */
+    background-position: center; /* Centraliza a imagem */
+    height: 500px;
+    opacity: 0.8;
+}
+
+.overlay-content {
+    position: absolute;
+    color: white; /* Para que o texto seja visível sobre a imagem */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Adiciona contraste para o texto */
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 1fr 0.1fr;
+    grid-template-rows: 1fr;
+    height: 500px;
+    width: 100%;
+}
+
+.logo-image {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    grid-column: 3;
 
 }
 
+.descricao {
+    justify-content: start;
+    align-content: center;
+    grid-column: 2;
+    text-align: start;
+    
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.2rem;
+}
+
 button {
-    background-color: purple;
+    background-color: #104b87;
     border-radius: 7px;
     font-weight: bold;
     font-size: 18px;
@@ -43,7 +85,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(80, 14, 80);
+    background-color: #082d52;
 }
 
 main {
